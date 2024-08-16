@@ -10,13 +10,13 @@ with col1:
 with col2:
     st.title("Vikram's")
     content1 = """ 
-    Hi... I am Vikram ... Programmer, web developer and a Blockchain Engineer.\n
-    I am a student in Reva University with B.Tech degree in CSE-Artificial Engineering and Machine Learning .\n
-    I have worked on many minor projects on web development and Blockchain Technology.  \n
+    An AIML undergraduate skilled in machine learning, deep learning, and web App development.\n
+    Strong troubleshoot- ing skill honed through projects. \n
+    Driven by innovation and a passion for applying technology to solve real-world challenges.  \n
     """
     st.info(content1)
 content2 = """  ...
-\n\tBelow You can find some of the apps I built in Python.
+\n\tBelow You can find some of the apps I built.
 """
 st.write(content2)
 
@@ -24,13 +24,13 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv("data.csv", sep=";")
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:8].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source code]({row['url']})")
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[8:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
