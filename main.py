@@ -10,10 +10,16 @@ with col1:
 with col2:
     st.title("Vikram's")
     content1 = """ 
-    An AIML undergraduate skilled in machine learning, deep learning, and web App development.\n
-    Strong troubleshoot- ing skill honed through projects. \n
-    Driven by innovation and a passion for applying technology to solve real-world challenges.  \n
-    """
+    An AIML undergraduate with a passion for technology,
+    this individual has mastered machine learning, deep learning,
+    and web app development. Proficient in Python, C, and C++,
+    with a solid understanding of Java, R, and JavaScript. \n
+    I have explored frameworks like Streamlit, LangChain, Flask, and Django.
+    Their expertise extends to database management with MySQL and DB-Browser,
+    as well as AI and ML technologies, including Neural Networks,
+    TensorFlow, and Computer Vision. \n
+    Driven by innovation, they explore 
+    large language models, web app development, and blockchain, all with the aim of solving real-world challenges through technology."""
     st.info(content1)
 content2 = """  ...
 \n\tBelow You can find some of the apps I built.
